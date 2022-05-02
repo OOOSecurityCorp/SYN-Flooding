@@ -3,8 +3,8 @@
 from scapy.all import *
 import argparse
 parser = argparse.ArgumentParser(description = "Simple SYN Flood Script")
-parse.add_argument("target_ip", help = "Target IP address(e.g router's IP, firewall, Intrusion Prevention System(IPS), etc...)")
-parse.add_argument("-p", "--port", help = "Description port (the port of the target's mechine services(e.g. 80 for HTTP, 22 for SSH and so on). ")	
+parser.add_argument("target_ip", help = "Target IP address(e.g router's IP, firewall, Intrusion Prevention System(IPS), etc...)")
+parser.add_argument("-p", "--port", help = "Description port (the port of the target's mechine services(e.g. 80 for HTTP, 22 for SSH and so on). ")	
 #parse arguments from the command line
 args = parser.parse_arg()
 
