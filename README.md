@@ -5,5 +5,5 @@
 
 ## built with
 
-**python 3.5.6**<br/>
+**python 3.6.5-**<br/>
 [www.python.org](https://www.python.org/)
